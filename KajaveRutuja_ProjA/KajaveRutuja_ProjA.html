@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project A: Harry Potter</title>
+  </head>
+
+
+  <body onload="main()">
+  <br>
+  <b><i> Welcome to the World of Wizards!</i> </b><br>
+  <i> By Rutuja Kajave </i>
+  <br>
+  <br>
+    <canvas id="webgl" width="500" height="500">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <br>
+    <i> Press buttons and enjoy the animations </i><br><br>
+    <button type="button" onclick = "driveSlower()"> Drive Slower</button><t><t><t>
+    <button type="button" onclick="driveFaster()"> Drive Faster</button><br><br>
+    <button type="button" onclick="buttonRunStop()"> Run/Stop</button><t><t><t> 
+    <button type="button" onclick = "reset()"> Reset</button><br><br>
+  <br>
+  <i>You pressed the following key: 
+  <span id="KeyPressResult">  </span>
+</br>
+<br>
+
+  <i> Play around with the snitch and Flying Car : </i>
+<p>1. Press W and S to move your Flying car </p>
+<p>2. Use mouse to drag the snitch </p>
+<p>3. Press P to pause and unpause animation</p>
+<p>4. Press Drive Slower Button to reduce the speed of the car </p>
+<p>5. Press Drive Faster Button to increase the speed of the car </p>
+<p>6. Press Reset to restart the animation</p>
+
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="lib/cuon-matrix-mod.js"></script>
+    <script src="lib1.js"></script>
+
+    <script src="RutujaKajave_ProjA.js"></script>
+  </body>
+</html>
